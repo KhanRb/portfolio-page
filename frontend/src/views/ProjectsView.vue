@@ -80,7 +80,6 @@ import { computed, ref } from 'vue'
 import fixMyCityImage from '../assets/images/project-fix-my-city.png'
 import projectFashionImage from '../assets/images/project-fashion.png'
 
-
 const projects = [
   {
     title: 'Dark Tech Project Fashion',
