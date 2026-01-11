@@ -77,6 +77,9 @@
 
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import fixMyCityImage from '../assets/images/project-fix-my-city.png'
+import projectFashionImage from '../assets/images/project-fashion.png'
+
 
 const projects = [
   {
@@ -89,7 +92,7 @@ const projects = [
       { label: 'Focus', text: 'UX, Back-end' }
     ],
     tech: ['Vue', 'TypeScript', 'Tailwind', 'SpringBoot', 'Research'],
-    image: 'src/assets/images/project-fashion.png'
+    image: projectFashionImage
   },
   {
     title: 'Project FixMyCity',
@@ -100,7 +103,7 @@ const projects = [
       { label: 'Role', text: 'Fullstack Developer' }
     ],
     tech: ['Vue', 'TypeScript', 'Tailwind', 'SpringBoot', 'Docker', 'CI-CD'],
-    image: 'src/assets/images/project-fix-my-city.png'
+    image: fixMyCityImage
   }
 ]
 
