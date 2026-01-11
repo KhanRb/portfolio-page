@@ -35,14 +35,14 @@
               {{ item.title }}
             </h3>
 
-            <!-- Company (ONLY bullet point) -->
+            <!-- Company -->
             <ul class="mt-4 list-disc list-inside marker:text-red-500">
               <li class="text-zinc-200 font-medium">
                 {{ item.company }}
               </li>
             </ul>
 
-            <!-- Description (NO bullets) -->
+            <!-- Description -->
             <p class="mt-3 text-zinc-400 text-sm leading-relaxed">
               {{ item.description }}
             </p>
@@ -66,7 +66,7 @@
               {{ item.title }}
             </h3>
 
-            <!-- School (ONLY bullet) -->
+            <!-- School -->
             <ul class="mt-4 list-disc list-inside marker:text-red-500">
               <li class="text-zinc-200 font-medium">
                 {{ item.school }}
